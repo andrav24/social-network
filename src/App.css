@@ -1,5 +1,7 @@
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .app-wrapper {
@@ -15,21 +17,9 @@ ul {
   text-align: center;
   margin: 0 auto;
 }
-.header {
-  grid-area: header;
-  background-color: #61d561;
-}
-.header .logo {
-  width: 50px;
-}
-.nav {
-  grid-area: nav;
-  background-color: dodgerblue;
-}
-.content {
-  grid-area: content;
-  background-color: orange;
-}
+
+
+
 .footer {
   grid-area: footer;
   background-color: cadetblue;

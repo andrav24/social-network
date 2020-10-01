@@ -1,0 +1,25 @@
+.nav {
+  grid-area: nav;
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+.menu {
+  text-align: left;
+}
+
+.item {
+  padding-bottom: 20px;
+}
+.item:last-child {
+  padding-bottom: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: orange;
+}
